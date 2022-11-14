@@ -1,0 +1,96 @@
+/* Wave Stuff */
+html, body {
+  position: absolute;
+  background-color: rgba(14, 14, 14, 0.2);
+  z-index: -1px;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.wave,
+.wave::before,
+.wave::after {
+  content: '';
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  width: 250vw;
+  height: 250vw;
+  margin-left: -125vw;
+  transform-origin: 50% 50%;
+  background-color: transparent; 
+  border-radius: 58% 42%;
+  box-shadow: inset 0 0 10vw rgb(0, 255, 68);
+  animation: spin 50s infinite linear; 
+  mix-blend-mode: multiply;
+  
+}
+.wave::before {
+  width: 105%;
+  height: 95%;
+  margin-top: -125vw;
+  transform-origin: 49% 51%;
+  border-radius: 40% 38%;
+  box-shadow: inset 0 0 10vw rgba(255, 0, 0, 0.8);
+  animation: spin 55s infinite linear;
+}
+.wave::after {
+  width: 102%;
+  height: 98%;
+  margin-top: -125vw;
+  transform-origin: 51% 49%;
+  border-radius: 48% 42%;
+  box-shadow: inset 0 0 10vw rgba(72, 0, 255, 0.8);
+  animation: spin 40s infinite linear;
+}
+@keyframes spin {
+  100% { transform: rotate(360deg); }
+}
+
+/* Grid layout */
+.gridLayout{
+  position: relative;
+  left: 10vw;
+  top: 5vh;
+  width: 80vw;
+  height: 80vh;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  grid-template-rows: 28vh 28vh 28vh;
+  gap: 1%;
+  row-gap: 2%;
+  
+  
+}
+
+.cardBody{
+  position: inherit;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding-left: 1%;
+  padding-right: 5%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  overflow: auto; 
+  border-radius: 5px;
+  
+  left: 5%;
+  height: 80%;
+  width: 90%;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a {
+  box-shadow: inset 0 0 0 0 #000000;
+  color: #000000;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color 1s ease-in-out, box-shadow .5s ease-in-out;
+}
+a:hover {
+  box-shadow: inset 100vw 0 0 0 #54b3d6;
+  color: white;
+}
