@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/takeactionwebsite/static/css/main.40c11a51.css",
+    "main.js": "/takeactionwebsite/static/js/main.ab895d46.js",
+    "static/js/787.cfb816d1.chunk.js": "/takeactionwebsite/static/js/787.cfb816d1.chunk.js",
+    "index.html": "/takeactionwebsite/index.html",
+    "main.40c11a51.css.map": "/takeactionwebsite/static/css/main.40c11a51.css.map",
+    "main.ab895d46.js.map": "/takeactionwebsite/static/js/main.ab895d46.js.map",
+    "787.cfb816d1.chunk.js.map": "/takeactionwebsite/static/js/787.cfb816d1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40c11a51.css",
+    "static/js/main.ab895d46.js"
+  ]
+}
