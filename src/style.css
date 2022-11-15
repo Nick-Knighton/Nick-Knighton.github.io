@@ -60,6 +60,7 @@ html, body {
   grid-template-rows: 28vh 28vh 28vh;
   gap: 1%;
   row-gap: 2%;
+  min-width: 100px;
   
   
 }
@@ -77,6 +78,7 @@ html, body {
   left: 5%;
   height: 80%;
   width: 90%;
+  min-width: 100px;
 }
 
 a:link{
@@ -84,13 +86,13 @@ a:link{
 }
 
 a {
-  box-shadow: inset 0 0 0 0 #000000;
+  box-shadow: inset 0 0 0 0 #8787876e;
   color: #000000;
   margin: 0 -.25rem;
   padding: 0 .25rem;
   transition: color 1s ease-in-out, box-shadow .5s ease-in-out;
 }
 a:hover {
-  box-shadow: inset 100vw 0 0 0 #54b3d6;
-  color: white;
+  box-shadow: inset 100vw 0 0 0 #00000068;
+  color: rgba(255, 255, 255, 0.9);
 }

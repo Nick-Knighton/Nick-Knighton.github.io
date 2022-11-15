@@ -17,7 +17,7 @@ function App() {
           <div class='cardBody'>
             <ul>
               <li><a href="https://studentlife.tamu.edu/lgbtq/resources/">LGBTQ+ campus resources</a></li>
-              <li><a href="https://diversity.tamu.edu/Resources">Respurces for diversity</a></li>
+              <li><a href="https://diversity.tamu.edu/Resources">Resources for diversity</a></li>
               <li><a href="https://allies.tamu.edu/resources/">Aggie ally</a></li>
               <li><a href="https://studentlife.tamu.edu/wrc/about/">Womens resource center</a></li>
               <li><a href="https://studentlife.tamu.edu/lgbtq/">LGBTQ+ pride center</a></li>
@@ -36,6 +36,7 @@ function App() {
               <li><a href="https://www.007b.com/breast_gallery.php">Normal breast gallery</a></li>
               <li><a href="https://labialibrary.org.au/">Labia library</a></li>
               <li><a href="https://www.willyworries.com/the-picture-galleries/the-willy-gallery/">What a normal penis looks like</a></li>
+              <li><a href="https://www.mybodygallery.com/">Normal body images</a></li>
             </ul>
           </div>
         </Card>
